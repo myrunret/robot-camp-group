@@ -11,7 +11,7 @@ def main():
     katharina.katharina()
     minseo.minseo()
     alissa.alissa()
-    yasmin.yasmin()
+    yasmin.yas()
     print(eli.eli())
 
 if __name__ == "__main__":
