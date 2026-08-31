@@ -1,2 +1,2 @@
 def katharina():
-    print("Katharina")
+    return "Katharina"
