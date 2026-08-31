@@ -1,2 +1,0 @@
-def myname():
-    print("Yasmin") 
