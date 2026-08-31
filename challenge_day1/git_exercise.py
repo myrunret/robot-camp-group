@@ -7,7 +7,7 @@ import alissa
 
 def main():
     print("This is team Pink Aliens! We are:")
-    zoe.zoe()
+    print(zoe.zoe())
     katharina.katharina()
     minseo.minseo()
     alissa.alissa()
