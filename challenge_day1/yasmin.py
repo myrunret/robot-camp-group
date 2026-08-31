@@ -1,2 +1,2 @@
 def yas():
-    return("Yasmin") 
+    print("Yasmin") 
