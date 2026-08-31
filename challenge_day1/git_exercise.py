@@ -3,14 +3,16 @@ import katharina
 import minseo
 import yasmin
 import eli
+import alissa
 
 def main():
     print("This is team Pink Aliens! We are:")
-    print(zoe.zoe())
-    print(katharina.katharina())
-    print(minseo.minseo())
+    zoe.zoe()
+    katharina.katharina()
+    minseo.minseo()
+    alissa.alissa()
     yasmin.yasmin()
-    eli.eli()
+    print(eli.eli())
 
 if __name__ == "__main__":
     main()
