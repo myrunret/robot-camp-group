@@ -11,3 +11,6 @@ def main():
     print(minseo.minseo())
     yasmin.yasmin()
     eli.eli()
+
+if __name__ == "__main__":
+    main()
