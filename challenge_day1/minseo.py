@@ -1,4 +1,3 @@
 def minseo():
-    print("Minseo")
+    return("Minseo")
 
-    
