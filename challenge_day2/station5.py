@@ -1,4 +1,4 @@
-def solution_station_5():
+def solution_station_5(name):
     
     # Create dictionary for LT
     lt_groups = {
