@@ -1,4 +1,4 @@
-def solution_5_X()
+def solution_5_X():
     
     # Create dictionary for LT
     lt_groups = {
