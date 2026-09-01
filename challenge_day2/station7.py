@@ -1,2 +1,2 @@
-def solution_7_X()
-    return none
+def solution_station_7():
+    return None
