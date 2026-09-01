@@ -3,14 +3,18 @@
 
 def station4(n: int):
     try:
-        if n == 76:
+        
+        if n <= 1:
             return False
-        elif n == 99:
-            return False
-        elif n == 33:
-            return False
-        else:
+        if n <= 3:
             return True
-    except TypeError:
-        print("Invalid input. Please enter an integer.")
-    print("Station 4: Observations - 76, 99, 33")
+        if n % 2 == 0 or n % 3 == 0:
+            return False
+        i = 5
+     while i * i <= n:
+            if n % i == 0 or n % (i + 2) == 0:
+                return False
+            i += 6
+        return True
+    except Exception:
+        return False
