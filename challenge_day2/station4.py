@@ -2,7 +2,7 @@
 ## observations 76 false: 99 false 33 false
 
 
-def station4(n: int):
+def solution_station_4(n: int):
     try:
         if n <= 1:
             return False
