@@ -1,3 +1,6 @@
+##Solution for station 6
+
+
 import numpy as np
 
 def solution_station_6(n):
