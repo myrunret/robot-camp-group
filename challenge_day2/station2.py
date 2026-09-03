@@ -7,3 +7,4 @@ def solution_station_2 (input):
     output = kanji[weekday] + "曜日"
     return output
 
+print(solution_station_2("2023-12-14"))

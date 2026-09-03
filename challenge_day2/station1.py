@@ -16,5 +16,5 @@ def solution_station_1(n: int):
     return b
 
 
-print(solution_station_1(11))
+print(solution_station_1(70))
     
