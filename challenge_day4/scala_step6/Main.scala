@@ -23,6 +23,6 @@ object Main {
         }
     }
 
-    Files.write(Paths.get("../fulldata/data7.txt"), outputLines.mkString("\n").getBytes)
+    Files.write(Paths.get("C:/Users/Admin/robot-camp-group/challenge_day4/fulldata/data7.txt"), outputLines.mkString("\n").getBytes)
   }
 }
