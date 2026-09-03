@@ -46,7 +46,7 @@ for _, line in ipairs(lines) do
 end
 
 -- Write data to `data5.txt`
-local out = io.open("data5.txt", "w")
+local out = io.open("/Users/poref/OneDrive/Desktop/UVA_CSSci/Year_2/Semester_3/Camp/robot-camp-group/challenge_day4/fulldata/data5.txt", "w")
 out:write("Name,Technical Skills,Soft Skills,Business Skills,Creative Skills,Academic Skills,Summary\n")
 for _, entry in ipairs(people) do
     out:write(table.concat(entry, ',') .. "\n")
