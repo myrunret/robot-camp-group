@@ -40,4 +40,4 @@ end
 CSV.write("C:/Users/Yasmin/OneDrive - UvA/Desktop/Pink Alien/robot-camp-group/challenge_day4/fulldata/data4.txt", people_df)
 
 # Save the modified DataFrame back to a new TXT file
-writedlm("C:/Users/Yasmin/OneDrive - UvA/Desktop/Pink Alien/robot-camp-group/challenge_day4/fulldata/data4.txt", people_df, ',')
+#writedlm("C:/Users/Yasmin/OneDrive - UvA/Desktop/Pink Alien/robot-camp-group/challenge_day4/fulldata/data4.txt", people_df, ',')
