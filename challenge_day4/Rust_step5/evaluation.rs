@@ -5,7 +5,7 @@ use std::fs::OpenOptions;
 use std::io::Write;
 
 fn main() -> io::Result<()> {
-    let path = Path::new(r"C:\Users\Yasmin\OneDrive - UvA\Desktop\Pink Alien\robot-camp-group\challenge_day4\fulldata\data5.txt");
+    let path = Path::new(r"C:/Users/Yasmin/OneDrive - UvA/Desktop/Pink Alien/robot-camp-group/challenge_day4/fulldata/data5.txt");
 
     let file = File::open(&path)?;
     let reader = io::BufReader::new(file);
@@ -14,7 +14,7 @@ fn main() -> io::Result<()> {
         .write(true)
         .create(true)
         .truncate(true)
-        .open(r"C:\Users\Yasmin\OneDrive - UvA\Desktop\Pink Alien\robot-camp-group\challenge_day4\fulldata\data6.txt")?;
+        .open(r"C:/Users/Yasmin/OneDrive - UvA/Desktop/Pink Alien/robot-camp-group/challenge_day4/fulldata/data6.txt")?;
 
     
     for (indexing, line) in reader.lines().enumerate() {
@@ -64,7 +64,7 @@ fn main() -> io::Result<()> {
         
         writeln!(output, "{},{},{}", line, parts[6], evaluation)?;
     }
-    
+    println!("Created data6.txt successfully.");
     Ok(())
 }
 
