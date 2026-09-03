@@ -13,7 +13,7 @@ fn main() -> io::Result<()> {
     let mut output = OpenOptions::new()
         .write(true)
         .create(true)
-        .truncate(true)
+        
         .open(r"C:/Users/Yasmin/OneDrive - UvA/Desktop/Pink Alien/robot-camp-group/challenge_day4/fulldata/data6.txt")?;
 
     
