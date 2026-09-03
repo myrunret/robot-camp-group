@@ -5,3 +5,5 @@ def solution_station_3(x):
         a = True
 
     return a
+
+print(solution_station_3(4))
