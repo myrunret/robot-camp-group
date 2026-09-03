@@ -10,6 +10,7 @@ def solution_station_4(n: int):
             return True
         if n % 2 == 0 or n % 3 == 0:
             return False
+            
         i = 5
         while i * i <= n:
             if n % i == 0 or n % (i + 2) == 0:
@@ -18,3 +19,6 @@ def solution_station_4(n: int):
         return True
     except Exception:
         return False
+
+
+print(solution_station_4(5))

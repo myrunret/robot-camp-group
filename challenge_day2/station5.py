@@ -8,7 +8,7 @@ def solution_station_5(name):
         2: ["Huy Bao", "Iris", "Katharina", "Minseo", "Sade", "Alex", "Arwen", 
             "Rajko", "Sylwia", "Zeno", "Christina", "Helen", "Mark", "Mats", 
             "Vadim", "David", "Lora", "Quinn", "Tarling"],
-        3: ["Elizabethe", "Gabriel", "Jakub", "Luc", "Soelie", "Aleksandra", "Arnav", "Donna", 
+        3: ["Elizabeth", "Gabriel", "Jakub", "Luc", "Soelie", "Aleksandra", "Arnav", "Donna", 
             "Milan", "Ronze", "Cris", "Jingqi", "Oliver", "Vaayu", "Yusef", "Afua", 
             "Anna", "Daniel", "Nataly", "Rafael"],
         4: ["Jeremy", "Krishiv", "Neel", "Yujie", "Yutong", "An", "Heer", 
@@ -21,3 +21,7 @@ def solution_station_5(name):
 
     # Return LT number
     return name_to_lt.get(name, -1)
+
+print(solution_station_5("Lora"))
+print(solution_station_5("Iris"))
+print(solution_station_5("Minseo"))
