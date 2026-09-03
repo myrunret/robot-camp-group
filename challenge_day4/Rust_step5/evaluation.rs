@@ -5,19 +5,22 @@ use std::fs::OpenOptions;
 use std::io::Write;
 
 fn main() -> io::Result<()> {
-    let path = Path::new("data5.txt");
+    let path = Path::new(r"C:\Users\Yasmin\OneDrive - UvA\Desktop\Pink Alien\robot-camp-group\challenge_day4\fulldata\data5.txt");
+
     let file = File::open(&path)?;
     let reader = io::BufReader::new(file);
     
     let mut output = OpenOptions::new()
         .write(true)
         .create(true)
-        .open("data6.txt")?;
+        .truncate(true)
+        .open(r"C:\Users\Yasmin\OneDrive - UvA\Desktop\Pink Alien\robot-camp-group\challenge_day4\fulldata\data6.txt")?;
+
     
     for (indexing, line) in reader.lines().enumerate() {
         let line = line?;
         
-        if index == 0 {
+        if indexing == 0 {
             // This is the header, add "Evaluation" to it and write to file
             writeln!(output, "{},Evaluation", line)?;
             continue;
